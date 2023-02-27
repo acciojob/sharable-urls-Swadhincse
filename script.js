@@ -13,9 +13,9 @@ function handleSubmit(event){
     var year = yearElement.value;
 
      if(name && year) {
-        h3Value += '?name=' + name + '&year=' +year;
+        h3Value += '?name=' + name + '&year=' + year;
     }
-    else if(name && !year){
+    else if( name && !year){
         h3Value += '?name=' + name;
     }
     else if(!name && year){
